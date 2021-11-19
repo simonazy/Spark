@@ -1,7 +1,7 @@
 # Project Summary
 The objective of this project was to create an ETL pipeline using I94 immigration, global land temperatures and US demographics datasets to establish an analytics database on immigration events.
 
-A use case for this analytics database is to find immigration patterns to the US. For example, we could try to find answears to questions such as, do people from countries with warmer or cold climate immigrate to the US in large numbers?
+A use case for this analytics database is to find immigration patterns to the US. For example, we could try to find answears to questions such as, where is the most popular place immigrants like? What are the possible reasons?
 
 ## Data and Code
 All the data for this project was loaded into S3 prior to commencing the project. The exception is the i94res.csv file which was loaded into Amazon EMR hdfs.
@@ -72,4 +72,4 @@ The pipeline steps are as follows:
 
 ### 4.2 Running the ETL pipeline
 The ETL pipeline is defined in the etl.py script, and this script uses the utility.py and etl_functions.py modules to create a pipeline that creates final tables in Amazon S3.
-> spark-submit --packages saurfang:spark-sas7bdat:2.0.0-s_2.10 etl.py
+> spark-submit --packages simonaz:spark-sas7bdat:2.0.0-s_2.10 etl.py

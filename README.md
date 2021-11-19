@@ -15,7 +15,7 @@ Spark uses a functional programming concept called `lazy evaluation`.
 
 
 ## General functions
-We have used the following general functions that are quite similar to methods of Pandas dataframes:
+T1he following general functions in Spark are quite similar to methods of Pandas dataframes:
 
 - select(): returns a new dataframe with the selected columns
 - filter(): filters rows using the given condition

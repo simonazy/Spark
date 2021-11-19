@@ -1,6 +1,8 @@
 # Spark
 
-### DAG
+Always refer to the [PySpark](http://spark.apache.org/docs/latest/api/python/) Documentation when run into bugs!
+
+### Understanding DAG
 ![image](https://user-images.githubusercontent.com/56880104/142511395-9ad48035-b903-49a9-8bf3-f3fea9bbab38.png)
 
 

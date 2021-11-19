@@ -37,6 +37,7 @@ The technology used in this project is Amazon S3, Apache Spark. Data will be rea
 ## Step 3: Define the Data Model
 ### 3.1 Conceptual Data Model
 
+![image](https://user-images.githubusercontent.com/56880104/142670020-7583449a-fd3e-44b1-9165-ebfb1c65bbbb.png)
 
 * Create dimension tables.
     * Create immigration calendar dimension table from I94 immigration dataset, this table links to the fact table through the arrdate field.
@@ -67,7 +68,7 @@ The pipeline steps are as follows:
 
 ## Step 4: Run Pipelines to Model the Data
 ### 4.1 Create the data model
-> Refere to the jupyter notebook for the data dictionary.
+> Refere to the jupyter notebook for interactions.
 
 ### 4.2 Running the ETL pipeline
 The ETL pipeline is defined in the etl.py script, and this script uses the utility.py and etl_functions.py modules to create a pipeline that creates final tables in Amazon S3.

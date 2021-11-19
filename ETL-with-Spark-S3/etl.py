@@ -24,7 +24,7 @@ os.environ['AWS_SECRET_ACCESS_KEY'] = config['AWS']['AWS_SECRET_ACCESS_KEY']
 def create_spark_session():
     spark = SparkSession \
         .builder \
-        .config("spark.jars.packages", "saurfang:spark-sas7bdat:2.0.0-s_2.11") \
+        .config("spark.jars.packages", "simonaz:spark-sas7bdat:2.0.0-s_2.11") \
         .enableHiveSupport() \
         .getOrCreate()
     return spark
